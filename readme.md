@@ -27,7 +27,7 @@ https://maven.apache.org/download.cgi
 3. Right click below in the Maven section, pick Test
 4. Will ask you to add your executable path, go to settings and type following.
 `~/apache-maven-3.6.3/bin/mvn`
-##Add Selenium to Maven Project
+## Add Selenium to Maven Project
 1. Go to https://www.selenium.dev/maven/ , get your dependency and copy to your *pom.xml*
 ```
 <dependency>
@@ -36,8 +36,7 @@ https://maven.apache.org/download.cgi
         <version>3.141.59</version>
     </dependency>
 ```
-
-##Add JUnit to Maven Project
+## Add JUnit to Maven Project
 1. Go to https://junit.org/junit4/dependency-info.html and get your dependency, add it to your *pom.xml*
 ```
 <dependency>
